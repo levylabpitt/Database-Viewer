@@ -1463,7 +1463,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Database.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DF976FEB-B9B6-40A1-BE48-C27FAE806D64}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2717DC10-03D1-4B39-844E-27E6FA48D16B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Database Viewer.lvclass/Database Viewer.vi</Property>
