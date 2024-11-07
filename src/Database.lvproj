@@ -14,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
+			<Item Name="buildWithCLI.vi" Type="VI" URL="../../build support/buildWithCLI.vi"/>
 			<Item Name="Build Self Extracting Installer.vi" Type="VI" URL="../../build support/Build Self Extracting Installer.vi"/>
 			<Item Name="Database.ico" Type="Document" URL="../../build support/Database.ico"/>
 			<Item Name="Database-64.ico" Type="Document" URL="../../build support/Database-64.ico"/>
@@ -1409,13 +1410,13 @@
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Database Viewer x86 Application" Type="EXE">
+			<Item Name="Database Viewer (x86) Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{45FAB563-FB2A-4D99-AC77-C308F323570F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B80D2B72-6463-4A75-89C9-FB1A23C9675D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8D8FDFD6-F354-45B2-9458-AC5B52812501}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Database Viewer x86 Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Database Viewer (x86) Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -1428,14 +1429,14 @@
 				<Property Name="Bld_version.minor" Type="Int">11</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Database Viewer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/Database Viewer x86 Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/Database Viewer (x86) Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Database.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{71FC34D0-21D5-4239-9843-48921DD7B0FA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1703866A-4E99-4365-8C5B-3E21BF1CBB05}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Database Viewer.lvclass/Database Viewer.vi</Property>
@@ -1443,14 +1444,14 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">LevyLab</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Database Viewer x86 Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Database Viewer x86 Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020</Property>
-				<Property Name="TgtF_productName" Type="Str">Database Viewer</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Database Viewer (x86) Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">Database Viewer (x86) Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024</Property>
+				<Property Name="TgtF_productName" Type="Str">Database Viewer (x86)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8844DD45-7C11-4278-91C4-E38454EABED2}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Database Viewer.exe</Property>
 			</Item>
-			<Item Name="Database Viewer x86 Installer" Type="Installer">
+			<Item Name="Database Viewer (x86) Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">LevyLab</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{72A7A929-4335-4DCD-B7FE-23DE7C993D06}</Property>
@@ -1505,10 +1506,10 @@
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Database Viewer x86 Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Database Viewer (x86) Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{72A7A929-4335-4DCD-B7FE-23DE7C993D06}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_productName" Type="Str">Database Viewer</Property>
+				<Property Name="INST_productName" Type="Str">Database Viewer (x86)</Property>
 				<Property Name="INST_productVersion" Type="Str">232.11.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
@@ -1526,23 +1527,23 @@
 				<Property Name="Source[0].File[0].dest" Type="Str">{496E03C5-D8B4-4261-8C91-A427B4501D6D}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Database Viewer.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Database Viewer x86</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Database Viewer (x86)</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LevyLab</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{8844DD45-7C11-4278-91C4-E38454EABED2}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Database Viewer x86 Application</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Database Viewer x86 Application</Property>
+				<Property Name="Source[0].name" Type="Str">Database Viewer (x86) Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Database Viewer (x86) Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
-			<Item Name="Database Viewer x64 Application" Type="EXE">
+			<Item Name="Database Viewer (x64) Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{220DC8DC-F910-400F-A970-5F215277E7BD}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B8D970EB-E8EC-4A19-8DA7-259510067339}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3589D58C-217A-40B6-B94A-A9A728F3FF26}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Database Viewer x64 Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Database Viewer (x64) Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -1555,14 +1556,14 @@
 				<Property Name="Bld_version.minor" Type="Int">11</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Database Viewer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Application/Database Viewer x64 Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Application/Database Viewer (x64) Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Database-64.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{71FC34D0-21D5-4239-9843-48921DD7B0FA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1703866A-4E99-4365-8C5B-3E21BF1CBB05}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Database Viewer.lvclass/Database Viewer.vi</Property>
@@ -1571,13 +1572,13 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">LevyLab</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Database Viewer Application</Property>
-				<Property Name="TgtF_internalName" Type="Str">Database Viewer Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">Database Viewer (x64) Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020</Property>
-				<Property Name="TgtF_productName" Type="Str">Database Viewer</Property>
+				<Property Name="TgtF_productName" Type="Str">Database Viewer (x64)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{20F4089F-5FF0-4CD2-83EB-3797A700E167}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Database Viewer.exe</Property>
 			</Item>
-			<Item Name="Database Viewer x64 Installer" Type="Installer">
+			<Item Name="Database Viewer (x64) Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">LevyLab</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{72A7A929-4335-4DCD-B7FE-23DE7C993D06}</Property>
@@ -1632,10 +1633,10 @@
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Database Viewer x64 Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Database Viewer (x64) Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{72A7A929-4335-4DCD-B7FE-23DE7C993D06}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_productName" Type="Str">Database Viewer</Property>
+				<Property Name="INST_productName" Type="Str">Database Viewer (x64)</Property>
 				<Property Name="INST_productVersion" Type="Str">232.11.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
@@ -1653,13 +1654,13 @@
 				<Property Name="Source[0].File[0].dest" Type="Str">{496E03C5-D8B4-4261-8C91-A427B4501D6D}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Database Viewer.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Database Viewer x64</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Database Viewer</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Database Viewer (x64)</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LevyLab</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{20F4089F-5FF0-4CD2-83EB-3797A700E167}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Database Viewer x64 Application</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Database Viewer x64 Application</Property>
+				<Property Name="Source[0].name" Type="Str">Database Viewer (x64) Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Database Viewer (x64) Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
