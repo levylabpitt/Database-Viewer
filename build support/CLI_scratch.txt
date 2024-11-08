@@ -1,0 +1,3 @@
+LabVIEWCLI -OperationName RunVI -VIPath "C:\Users\patrick\Documents\GitHub\Database-Viewer\build support\buildWithCLI.vi" "2024.11.5.7" -LabVIEWPath "%ProgramFiles%\National Instruments\LabVIEW 2019\LabVIEW.exe"
+
+LabVIEWCLI -OperationName RunVI -VIPath "C:\Users\patrick\Documents\GitHub\Database-Viewer\build support\buildWithCLI.vi" "2024.11.5.7" -LabVIEWPath "%ProgramFiles(x86)%\National Instruments\LabVIEW 2019\LabVIEW.exe"
