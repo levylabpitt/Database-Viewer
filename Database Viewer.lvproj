@@ -1443,10 +1443,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CD0B08EE-E291-4869-BCE0-A28103EE330C}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">2025</Property>
-				<Property Name="Bld_version.minor" Type="Int">4</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Database Viewer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/Database Viewer (x64) Application.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -1528,7 +1528,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{72A7A929-4335-4DCD-B7FE-23DE7C993D06}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Database Viewer</Property>
-				<Property Name="INST_productVersion" Type="Str">233.4.3</Property>
+				<Property Name="INST_productVersion" Type="Str">233.5.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
