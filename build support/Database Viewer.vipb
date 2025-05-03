@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-11-12 18:42:40" Modified_Date="2025-05-02 16:33:13" Creator="Patrick Irvin" Comments="" ID="3ef9af936481cd40eb2d45283ba7b97e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-11-12 18:42:40" Modified_Date="2025-05-02 20:38:03" Creator="Patrick Irvin" Comments="" ID="7c3fa7aea1899faeb20d97280c4deec6">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_postgreSQL</Package_File_Name>
-    <Library_Version>2025.5.2.1</Library_Version>
+    <Library_Version>2025.5.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\Database Viewer</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -289,7 +289,7 @@
         <Path>..\src\Database Viewer\Database Viewer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EBC931CAEA5C4EB529B2C2DEFE04F20</GUID>
+      <GUID>805632251F525DF50DD9BB13D2FA9AE8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -520,7 +520,7 @@
         <Path>..\src\Database Viewer\private\Var_Axis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>108C1B3D31D21BC67C53F078C3960AE7</GUID>
+      <GUID>51738EC49417C09076E7DBCBBE1C52C4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
