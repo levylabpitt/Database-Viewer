@@ -1443,10 +1443,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CD0B08EE-E291-4869-BCE0-A28103EE330C}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">2025</Property>
-				<Property Name="Bld_version.minor" Type="Int">5</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Database Viewer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/Database Viewer (x64) Application.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -1457,7 +1457,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/Database-64.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{567991F9-4FC1-46BA-AA9A-D9FA0EC7DA74}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A62C3A0F-279B-4252-B577-159647AB95BA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Database Viewer.lvclass/Database Viewer.vi</Property>
@@ -1528,7 +1528,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{72A7A929-4335-4DCD-B7FE-23DE7C993D06}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Database Viewer</Property>
-				<Property Name="INST_productVersion" Type="Str">233.5.2</Property>
+				<Property Name="INST_productVersion" Type="Str">233.4.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
