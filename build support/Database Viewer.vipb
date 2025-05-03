@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-11-12 18:42:40" Modified_Date="2025-05-03 09:01:24" Creator="Patrick Irvin" Comments="" ID="0b5d8511e223759c56422f785eb1db0a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-11-12 18:42:40" Modified_Date="2025-05-03 09:12:00" Creator="Patrick Irvin" Comments="" ID="83859c6a8cf581fef09f24e2c48baec1">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_database_viewer</Package_File_Name>
-    <Library_Version>2025.5.2.4</Library_Version>
+    <Library_Version>2025.5.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -291,7 +291,7 @@
         <Path>..\src\Database Viewer\Database Viewer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F80F9FA41273E7B552339A236F807FB3</GUID>
+      <GUID>B51FA06586449B5BF46111A3EFB82639</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -522,7 +522,7 @@
         <Path>..\src\Database Viewer\private\Var_Axis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>496A5AA6B0F70EA8A7512BE92E347E69</GUID>
+      <GUID>79D57CBB9207389423C65DBA5E4F2E90</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
