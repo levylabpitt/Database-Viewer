@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-11-12 18:42:40" Modified_Date="2026-02-05 14:58:48" Creator="Patrick Irvin" Comments="" ID="e4faf258f5f1de41d759f6ef7f285976">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-11-12 18:42:40" Modified_Date="2026-02-05 17:03:03" Creator="Patrick Irvin" Comments="" ID="c77de197b7e1a604f1cbeb99499d7c6a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_database_viewer</Package_File_Name>
     <Library_Version>2026.2.5.7</Library_Version>
@@ -17,69 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>i3_external_encryption &gt;= 1.0.0.8</External_Dependencies>
-      <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.2.19</External_Dependencies>
-      <External_Dependencies>jdp_science_postgresql &gt;= 0.6.2.48</External_Dependencies>
-      <External_Dependencies>jki_lib_caraya &gt;= 1.4.3.147</External_Dependencies>
-      <External_Dependencies>jki_lib_json_serialization &gt;= 1.1.10.37</External_Dependencies>
-      <External_Dependencies>jki_lib_serialization &gt;= 1.0.1.14</External_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
-      <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.3.0.8</External_Dependencies>
-      <External_Dependencies>levylab_lib_fileutilities &gt;= 1.2.6.13</External_Dependencies>
-      <External_Dependencies>levylab_lib_graph_utilities &gt;= 2.1.11.4</External_Dependencies>
-      <External_Dependencies>levylab_lib_lvtdatpgsql &gt;= 3.9.2.7</External_Dependencies>
-      <External_Dependencies>levylab_lib_lvtoitx &gt;= 3.9.2.7</External_Dependencies>
-      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.6.0.6</External_Dependencies>
-      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
-      <External_Dependencies>mgi_lib_application_control &gt;= 1.1.1.10</External_Dependencies>
-      <External_Dependencies>mgi_lib_numeric &gt;= 1.1.0.2</External_Dependencies>
-      <External_Dependencies>mgi_lib_string &gt;= 1.1.1.5</External_Dependencies>
-      <External_Dependencies>mgi_lib_tree &gt;= 1.0.4.4</External_Dependencies>
-      <External_Dependencies>national_instruments_lib_guid_generator &gt;= 1.0.2.3</External_Dependencies>
-      <External_Dependencies>ni_cloud_toolkit_for_aws &gt;= 1.1.0.1</External_Dependencies>
-      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
-      <External_Dependencies>oglib_dictionary &gt;= 4.0.0.4</External_Dependencies>
-      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
-      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 5.0.0.27</External_Dependencies>
-      <External_Dependencies>oglib_md5 &gt;= 4.1.1.10</External_Dependencies>
-      <External_Dependencies>oglib_numeric &gt;= 4.1.0.8</External_Dependencies>
-      <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <External_Dependencies>oglib_time &gt;= 4.0.1.3</External_Dependencies>
-      <External_Dependencies>oglib_variantconfig &gt;= 4.0.0.5</External_Dependencies>
       <Additional_External_Dependencies>levylab_lib_configuration &gt;=1.1.0.6</Additional_External_Dependencies>
-      <Direct_Dependencies>i3_external_encryption-1.0.0.8</Direct_Dependencies>
-      <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.2.19</Direct_Dependencies>
-      <Direct_Dependencies>jdp_science_postgresql-0.6.2.48</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_caraya-1.4.3.147</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_json_serialization-1.1.10.37</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_serialization-1.0.1.14</Direct_Dependencies>
-      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.3.0.8</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_fileutilities-1.2.6.13</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_graph_utilities-2.1.11.4</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_lvtdatpgsql-3.9.2.7</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_lvtoitx-3.9.2.7</Direct_Dependencies>
-      <Direct_Dependencies>levylab_lib_xy_utilities-1.6.0.6</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_application_control-1.1.1.10</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_numeric-1.1.0.2</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_string-1.1.1.5</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_tree-1.0.4.4</Direct_Dependencies>
-      <Direct_Dependencies>national_instruments_lib_guid_generator-1.0.2.3</Direct_Dependencies>
-      <Direct_Dependencies>ni_cloud_toolkit_for_aws-1.1.0.1</Direct_Dependencies>
-      <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
-      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
-      <Direct_Dependencies>oglib_dictionary-4.0.0.4</Direct_Dependencies>
-      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
-      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
-      <Direct_Dependencies>oglib_lvdata-5.0.0.27</Direct_Dependencies>
-      <Direct_Dependencies>oglib_md5-4.1.1.10</Direct_Dependencies>
-      <Direct_Dependencies>oglib_numeric-4.1.0.8</Direct_Dependencies>
-      <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
-      <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
-      <Direct_Dependencies>oglib_variantconfig-4.0.0.5</Direct_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_lvtdatpgsql &gt;=3.12.0.14</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -289,7 +228,7 @@
         <Path>..\src\Database Viewer\Database Viewer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>827168C5B4345A56DE2C18EDCFE5CABF</GUID>
+      <GUID>801D1ADA0FA0B534F178C3F075FD54CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -520,7 +459,7 @@
         <Path>..\src\Database Viewer\private\Var_Axis.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8DA18DAF8D541742DA9FBF356F07CF05</GUID>
+      <GUID>9923132DC813BC50503E301B13717431</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
